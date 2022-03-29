@@ -4,38 +4,76 @@
     <head>
         <meta charset="utf-8">
         <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style> 
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+        .wrapper {
+            width: 100%
+            }
+        
+        .img-banner {
+            display: none;
+            }
+        
            body {background-color: black;}
            body {color: grey;}
         h1 {
            font-family: Lobster, monospace;
-           font-size: 30px;
-        }
+           font-size: 50px;
+            }
         p {
            font-size: 16px;
            font-family: monospace;
-        }
+            }
         div {
             text-align: center;
-        }
+            }
         .thick-brown-border {
             border-color: brown;
             border-width: 13px;
             border-style: solid;
             border-radius: 50%;
+            width: 100%;
            }
+
+         .info-page h2 {
+             padding: 30px 30px 20px;
+             font-family: monospace;
+             font-size: 50px;
+             color: #111;
+             line-height: 44px;
+            }
+
+        .info-page p {
+             padding: 0px 30px 20px;
+             font-family: monospace;
+             font-size: 16px;
+             color: #111;
+             line-height: 24px;
+            }
+        
         </style>
     </head>
     <body>
-
-      <div>
+        <img class="img-banner" src="https://user-images.githubusercontent.com/86548197/160585236-d04fe948-9fcf-459d-b034-a4a8fa67420c.gif" alt="Banner with skateboard leaning against cactus">
+      <div class="wrapper">
         <h1>Crumb Snatch</h1>
        
         <a href="https://www.instagram.com/crumb.snatch.sk8/"><img class="thick-brown-border" src="https://user-images.githubusercontent.com/86548197/160566190-447b8edc-31d8-4688-90cf-556584cb2481.gif" alt="Crumbsnatch Logo"></a>
         
-        <p>spinning chaos into order</p> 
-          
-        </div>
+        <p>spinning chaos into order</p>
+        
+          <article class="info-page">
+              <h2>Stay Irie</h2>
+              <p>Lorem ipsum dolor sit amet, conssectetur adipiscing elit. Ut viverra sem quis mi emperdiet</p>
+              <p>Praesent sed blandit lorem. Sed rutrum luctus eros, id venenatis erat commodo non. integer</p>
+          </article>
+        
+      </div>
         
 <!-- the cult of the poopyspoon, worship all processes that mold chaotic and discarded waste into useable resource and abundance -->
     </body>
